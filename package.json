@@ -1,0 +1,26 @@
+{
+  "name": "magmadb",
+  "version": "1.2.1",
+  "description": "Magmadb, a user-friendly solution for storing and accessing data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "storing",
+    "values",
+    "keys",
+    "easy",
+    "quick",
+    "sqlite",
+    "sqlite3",
+    "mongo",
+    "mongoose",
+    "mongodb",
+    "db",
+    "beginner"
+  ],
+  "author": "Yessindevs",
+  "license": "ISC"
+}
