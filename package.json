@@ -21,6 +21,13 @@
     "db",
     "beginner"
   ],
-  "author": "Yessindevs",
+  "author": "Yessindevs <contact@yessindevs.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medyass1ne/Magmadb"
+  },
+  "bugs": {
+    "url": "https://github.com/medyass1ne/Magmadb/issues"
+  },
   "license": "ISC"
 }
