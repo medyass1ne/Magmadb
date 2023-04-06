@@ -1,6 +1,6 @@
 {
   "name": "magmadb",
-  "version": "1.2.1",
+  "version": "1.2.10",
   "description": "Magmadb, a user-friendly solution for storing and accessing data.",
   "main": "index.js",
   "scripts": {
