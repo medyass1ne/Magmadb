@@ -1,10 +1,14 @@
 <img src="/banner.png">
 <p>
-    <a href="https://www.npmjs.com/package/discord-rc"><img src="https://img.shields.io/npm/v/magmadb.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/discord-rc"><img src="https://img.shields.io/npm/dt/magmadb.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/magmadb"><img src="https://img.shields.io/npm/v/magmadb.svg?cacheSeconds=3600&style=for-the-badge" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/magmadb"><img src="https://img.shields.io/npm/l/magmadb.svg?cacheSeconds=3600&style=for-the-badge" alt="NPM license" /></a>
+    <a href="https://www.npmjs.com/package/magmadb"><img src="https://img.shields.io/npm/dt/magmadb.svg?cacheSeconds=3600&style=for-the-badge" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/magmadb"><img src="https://img.shields.io/bundlephobia/min/magmadb?color=%237559ff&label=Size&style=for-the-badge" alt="NPM size" /></a>
 </p>
 
 **Magmadb** is a package that offers a user-friendly solution for storing and accessing data in a low to medium volume environment, suitable for individuals with varying levels of expertise. The data is stored locally and persistently in json format, and the package also provides a variety of convenient features to enhance the user experience.
+
+> A MAJOR BUG HAS BEEN FIXED, MAGMADB NOW WORKS PERFECTLY!
 
 - **Persistent Storage** - Data doesn't disappear through restarts
 - **Works out of the box** - No need to set up a database server, all the data is stored locally in the same project

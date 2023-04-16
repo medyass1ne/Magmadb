@@ -5,17 +5,19 @@ module.exports = function() {
     const accounts = magma.CreateCollection("accounts");
     accounts.CreateData({
         id: 38437838728397,
-        name: "nathir",
+        name: "Jacob",
         password: "password"
     });
     accounts.CreateData({
         id: 45768659181532,
-        name: "yessin",
+        name: "Marcus",
         password: "104104104"
     });
 
-    const yessin = accounts.GetData({ id: 45768659181532 });
-    accounts.UpdateData(yessin, {
+    const jacob = accounts.Find({ id: 45768659181532 });
+    //magma.DeleteCollection(accounts);
+    /* accounts.UpdateData(jacob, {
         name: "cool",
-    })
+    }) */
+    // console.log(jacob);
 }

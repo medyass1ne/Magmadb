@@ -24,7 +24,7 @@ class Database {
             let db = require(this.dbFile);
             let collection = new Collection(name, this.dbFile);
             this.#collections.push(collection);
-            db[name] = [];
+            if(!db[name]) db[name] = [];
             fs.writeFileSync(this.dbFile, JSON.stringify(db));
             return collection;
         } catch(err) {

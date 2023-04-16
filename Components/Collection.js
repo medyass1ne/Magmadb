@@ -8,13 +8,18 @@ class Collection {
         this.destroyed = false;
     }
 
+    GenerateMagmaID() {
+        let magmaid = this.GetAllData().length + Utils.GenerateID(32);
+        return magmaid;
+    }
+
     CreateData(data={}) {
         if(this.destroyed) return;
         if(typeof data != "object") throw new TypeError("[Magmadb.CollectionError] CreateData(data) -> data must be a json object '{}'");
         try {
             let db = require(this.dbFile);
             if(!db[this.name].includes(data)) {
-                data.__magmaID = Utils.GenerateID(32);
+                data.__magmaID = this.GenerateMagmaID();
                 db[this.name].push(data);
                 fs.writeFileSync(this.dbFile, JSON.stringify(db));
             }
